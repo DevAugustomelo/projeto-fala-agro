@@ -1,0 +1,49 @@
+
+
+
+
+
+.senha {
+    position: relative;
+    height: 60vw;
+    
+}
+
+#senha {
+    margin-top: 0;
+}
+
+#senha p {
+    /* margin-bottom: 1em; */
+}
+
+#senha #btn-confirmar {
+    border: 2px solid #7FE613;
+    padding: 15px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+    width: 42vw;
+    background-color: #7FE613;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor-fonte);
+    outline: none;
+    transition: transform 0.7s;
+    animation: slideUp 2s;
+  
+   
+}
+
+
+#senha #btn-confirmar:hover{
+    transform: scale(1.05);
+    background-color: #7FE613;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#senha #box-input {
+    margin: 20px;
+}
